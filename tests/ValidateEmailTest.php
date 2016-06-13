@@ -10,7 +10,7 @@ class ValidateEmailTest extends PHPUnit_Framework_TestCase{
 	public function testValidEmail(){
 		$valPass = new ValidateEmail();
 		$this->assertTrue($valPass->validEmail('dmartinez4290@gmail.com'));
-		//$this->assertFalse($valPass->validEmail('dmartinez4290@gmail.'));
+		$this->assertFalse($valPass->validEmail('dmartinez4290@gmail.'));
 		//$this->assertFalse($valPass->validEmail('dmartinez4290gmail.com'));
 	}
 
