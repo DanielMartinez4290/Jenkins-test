@@ -1,6 +1,7 @@
 <?php
 
 class ValidateEmail{
+	
 
 	public function validEmail($email){
 
@@ -14,6 +15,11 @@ class ValidateEmail{
 		}
 
 		
+	}
+
+
+	public function validTest(){
+		return true;
 	}
 
 }
